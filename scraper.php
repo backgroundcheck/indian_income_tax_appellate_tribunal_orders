@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 header('Content-Type: application/json');
 
 function scrape($session, $session_id, $zone, $bench, $appeal_date, $page) {
